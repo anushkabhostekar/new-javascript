@@ -17,3 +17,29 @@ const myfunction = function(){
 }
 
 console.log(typeof myfunction);
+// ************************************************//
+
+// stack memory : primitive type
+
+
+let myYoutubdename="anushkabhostekar"
+
+let anothername= myYoutubdename
+anothername="coffee_ani_barach_kahi_21"
+console.log(anothername);
+
+//********************//
+// heap memory: non -primitive 
+
+let userOne ={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email="anu@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+
+
